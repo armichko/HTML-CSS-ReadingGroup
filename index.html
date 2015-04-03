@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+
+<body>
+
+
+  <nav id="main-nav" class="row">
+    <div class="col-md-2">
+        <img class="logo" src="images/google-logo-reverse.png">
+    </div>
+    <div class="site-search col-md-8">
+      <input type="text" placeholder="Search Drive"/>
+        <i class="fa fa-caret-down"></i>
+      <button id="search-button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div class="row">
+    <section id="sidebar" class="col-md-2">
+      <div class ="google-drive">
+          <img class="drive-icon" src="images/google-drive-icon.png">
+          <p>Drive</p> 
+          <button id="plus-button">
+            <i class="fa fa-plus"></i>
+          </button>
+      </div>
+
+      <div id="side-list">
+        <ul class="higher-level-ul">
+          <a href="#"><li class="active-item"><i class="fa fa-folder-open-o"></i>My Drive</li></a>
+            <ul class="lower-level-ul">
+                <a href="#"><li><i class="fa fa-folder-o"></i>Backups<i class= "fa fa-caret-right"></i></li></a>
+                <a href="#"><li><i class="fa fa-folder-o"></i>Documents<i class= "fa fa-caret-right"></i></li></a>
+                <a href="#"><li><i class="fa fa-folder-o"></i>Manuals<i class= "fa fa-caret-right"></i></li></a>
+                <a href="#"><li><i class="fa fa-folder-o"></i>Projects<i class= "fa fa-caret-right"></i></li></a>
+                <a href="#"><li class="active-item"><i class="fa fa-folder-open-o"></i>Photos<i class= "fa fa-caret-right"></i></li></a>
+            </ul>
+          <a href="#"><li><i class="fa fa-smile-o"></i>Incoming</li></a>
+          <a href="#"><li><i class="fa fa-clock-o"></i>Recent</li></a>  
+          <a href="#"><li><i class="fa fa-star-o"></i>Starred</li></a>  
+          <a href="#"><li><i class="fa fa-trash-o"></i>Trash</li></a>    
+        </ul>
+      </div>
+
+
+      <div id="sidebar-footer">
+          <div class="amount-bar-fill">
+          </div>
+
+          <div class="amount-bar-empty">
+          </div>
+          <div class="footer-text">
+          <p class="line-1">33.4 GB (13%) of 100 GB used</br>
+          <span class="line-2">Manage</span></p>
+          </div>
+      </div>
+
+    </section>
+
+    <section id="content" class="col-md-7">
+      <h1>My Drive<i class ="fa fa-angle-right"></i><span class="secondary-h1">Photos<i class="fa fa-caret-down"></i></span></h1>
+    </section>
+  </div>
+
+</body>
+
+</html>
